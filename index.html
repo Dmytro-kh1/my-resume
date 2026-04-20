@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmytro Khodyriev - Production Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .grayscale-hover { filter: grayscale(100%); transition: 0.5s; }
+        .grayscale-hover:hover { filter: grayscale(0%); }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-zinc-300 selection:bg-white selection:text-black">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-zinc-800 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <span class="text-white font-black tracking-tighter text-xl underline decoration-zinc-700 underline-offset-4 uppercase">DK.PROD</span>
+            <div class="flex gap-6 text-[10px] font-bold uppercase tracking-widest">
+                <span class="text-white cursor-pointer">Portfolio</span>
+                <span class="hover:text-white cursor-pointer transition-colors">Contact</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+            
+            <!-- Sidebar / Left Column -->
+            <aside class="lg:col-span-4 space-y-12">
+                <section>
+                    <div class="relative inline-block mb-8">
+                        <img 
+                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=400&h=400" 
+                            alt="Dmytro Khodyriev"
+                            class="w-48 h-60 object-cover grayscale-hover rounded-sm border border-zinc-800"
+                        >
+                        <div class="absolute -bottom-4 -right-4 bg-white text-black p-4 font-black text-xs rotate-3 shadow-xl">
+                            DMYTRO KHODYRIEV
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4 pt-6">
+                        <p class="flex items-center gap-3 text-xs"><i data-lucide="mail" class="w-4 h-4 text-zinc-500"></i> mrdxworld@gmail.com</p>
+                        <p class="flex items-center gap-3 text-xs"><i data-lucide="phone" class="w-4 h-4 text-zinc-500"></i> +48 530 755 945</p>
+                        <p class="flex items-center gap-3 text-xs"><i data-lucide="map-pin" class="w-4 h-4 text-zinc-500"></i> Łódź, Polska</p>
+                    </div>
+                </section>
+
+                <section class="space-y-8">
+                    <h2 class="text-white text-xs font-black uppercase tracking-[0.2em] border-b border-zinc-800 pb-2 text-zinc-500">UMIEJĘTNOŚCI</h2>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-white text-[11px] font-bold flex items-center gap-2 italic mb-3">
+                                <i data-lucide="video" class="w-4 h-4"></i> Video Editing & Post-Production
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Adobe Premiere Pro</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">After Effects</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Color Grading</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Sound Design</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-white text-[11px] font-bold flex items-center gap-2 italic mb-3">
+                                <i data-lucide="palette" class="w-4 h-4"></i> Design & Visual Tools
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Adobe Photoshop</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Motion Graphics</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Blender (Basic)</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-white text-[11px] font-bold flex items-center gap-2 italic mb-3">
+                                <i data-lucide="cpu" class="w-4 h-4"></i> AI Tools & Automation
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">HeyGen</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">ElevenLabs</span>
+                                <span class="text-[10px] border border-zinc-800 px-2 py-1 rounded">Workflow Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="space-y-6">
+                    <h2 class="text-white text-xs font-black uppercase tracking-[0.2em] border-b border-zinc-800 pb-2 text-zinc-500">ZNAJOMOŚĆ JĘZYKÓW</h2>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-baseline border-b border-zinc-900 pb-1">
+                            <span class="text-xs text-white uppercase font-medium">Angielski</span>
+                            <span class="text-[10px] text-zinc-500 italic">Średnio zaawansowany</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-zinc-900 pb-1">
+                            <span class="text-xs text-white uppercase font-medium">Rosyjski</span>
+                            <span class="text-[10px] text-zinc-500 italic">Zaawansowany</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-zinc-900 pb-1">
+                            <span class="text-xs text-white uppercase font-medium">Ukraiński</span>
+                            <span class="text-[10px] text-zinc-500 italic">Ojczysty</span>
+                        </div>
+                        <div class="flex justify-between items-baseline border-b border-zinc-900 pb-1">
+                            <span class="text-xs text-white uppercase font-medium">Polski</span>
+                            <span class="text-[10px] text-zinc-500 italic">Podstawowy</span>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Main Content / Right Column -->
+            <div class="lg:col-span-8 space-y-24">
+                
+                <section class="space-y-12">
+                    <h2 class="text-white text-sm font-black uppercase tracking-[0.3em] flex items-center gap-4">
+                        <i data-lucide="briefcase" class="w-5 h-5 text-blue-500"></i> DOŚWIADCZENIE ZAWODOWЕ
+                    </h2>
+                    
+                    <div class="space-y-16">
+                        <!-- Job 1 -->
+                        <div class="group relative">
+                            <div class="flex flex-col md:flex-row md:items-baseline justify-between mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors tracking-tight uppercase">Video Editor (Automation & AI)</h3>
+                                    <p class="text-sm font-medium text-zinc-500 mt-1 uppercase tracking-wider">Proskurovskiy Agency</p>
+                                </div>
+                                <span class="text-[10px] font-mono text-zinc-600 mt-2 md:mt-0 uppercase">12.2025 - obecnie</span>
+                            </div>
+                            <p class="text-sm leading-relaxed text-zinc-400 border-l border-zinc-800 pl-6 py-2">
+                                Edited video creatives from ready-made scripts for performance marketing campaigns. Applied advanced color grading, sound design, and motion graphics. Used AI tools (HeyGen, ElevenLabs) for voiceover and avatar generation.
+                            </p>
+                        </div>
+
+                        <!-- Job 2 -->
+                        <div class="group relative">
+                            <div class="flex flex-col md:flex-row md:items-baseline justify-between mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors tracking-tight uppercase">Creative Video Editor</h3>
+                                    <p class="text-sm font-medium text-zinc-500 mt-1 uppercase tracking-wider">Performance Marketing Agency</p>
+                                </div>
+                                <span class="text-[10px] font-mono text-zinc-600 mt-2 md:mt-0 uppercase">03.2025 - 02.2026</span>
+                            </div>
+                            <p class="text-sm leading-relaxed text-zinc-400 border-l border-zinc-800 pl-6 py-2">
+                                Managed full post-production cycle for video creatives. Dynamic editing, stock footage selection and integration for high-converting ad content. Professional sound design and final branding.
+                            </p>
+                        </div>
+
+                        <!-- Job 3 -->
+                        <div class="group relative">
+                            <div class="flex flex-col md:flex-row md:items-baseline justify-between mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors tracking-tight uppercase">Personal Business Assistant</h3>
+                                    <p class="text-sm font-medium text-zinc-500 mt-1 uppercase tracking-wider">SOFT SHOULDER (USA/Global)</p>
+                                </div>
+                                <span class="text-[10px] font-mono text-zinc-600 mt-2 md:mt-0 uppercase">02.2023 - obecnie</span>
+                            </div>
+                            <p class="text-sm leading-relaxed text-zinc-400 border-l border-zinc-800 pl-6 py-2">
+                                Communication with English-speaking clients and partners. Content management and scheduling for social media (Instagram, Tik Tok). Analyzing information and structuring data.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="space-y-12">
+                    <h2 class="text-white text-sm font-black uppercase tracking-[0.3em] flex items-center gap-4">
+                        <i data-lucide="graduation-cap" class="w-5 h-5 text-blue-500"></i> WYKSZTAŁCENIE
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-[#111] p-8 rounded-sm border border-zinc-800">
+                            <p class="text-[10px] font-mono text-zinc-600 uppercase">09.2022 - obecny</p>
+                            <h4 class="text-white font-bold mt-2 text-sm uppercase">Zaporoski Uniwersytet Narodowy</h4>
+                            <p class="text-xs text-zinc-500 mt-1">Projektowanie graficzne licencjat</p>
+                        </div>
+                        <div class="bg-[#111] p-8 rounded-sm border border-zinc-800">
+                            <p class="text-[10px] font-mono text-zinc-600 uppercase">09.2019 - 06.2022</p>
+                            <h4 class="text-white font-bold mt-2 text-sm uppercase">Wyżsза Szkoła Zawodowa w Michajłówce</h4>
+                            <p class="text-xs text-zinc-500 mt-1">Operator przetwarzania informacji</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer Section / Goal -->
+                <section class="bg-white p-12 text-black rounded-sm overflow-hidden relative">
+                    <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+                        <div>
+                            <h2 class="text-4xl font-black italic tracking-tighter uppercase mb-4 leading-none">Main Goal: F1Xy</h2>
+                            <p class="text-[10px] font-bold leading-relaxed uppercase opacity-60 max-w-sm">
+                                Professional video editing and motion design in the gaming industry. Building the ultimate portfolio through creative content creation.
+                            </p>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-full"><i data-lucide="youtube"></i></div>
+                            <div class="w-14 h-14 bg-black text-white flex items-center justify-center rounded-full"><i data-lucide="zap"></i></div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-zinc-900 py-12 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+            <p>© 2026 Dmytro Khodyriev</p>
+            <div class="flex gap-8">
+                <span class="hover:text-white transition-colors cursor-pointer">Youtube</span>
+                <span class="hover:text-white transition-colors cursor-pointer">Instagram</span>
+                <span class="hover:text-white transition-colors cursor-pointer">LinkedIn</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
